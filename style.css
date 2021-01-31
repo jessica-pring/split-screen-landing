@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #030E11;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0.6em 0 0.6em 0;
+}
+
+p {
+  margin: 1.6em 0;
+}
+
+header {
+  height: 100vh;
+
+  background-image: url(images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 120px;
+  padding-right: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+section:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+section div {
+  width: 50%;
+}
+
+section div.text h2, p {
+  padding: 0 30px;
+}
+
+section div.full-image {
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+section div.image-1 {
+  background-image: url(images/fashun-1.jpg);
+  background-position: top;
+}
+
+section div.image-2 {
+  background-image: url(images/fashun-2.jpg);
+}
+
+section div.image-3 {
+  background-image: url(images/fashun-3.jpg);
+  background-position: bottom;
+}
+
+footer {
+  height: 10vh;
+  border-top: 1px #030E11 solid;
+  padding-top: 0.4em;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+footer a {
+  font-size: 60px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 48px;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  header {
+    height: 70vw;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  section {
+    display: block;
+  }
+
+  section div {
+    width: 100%;
+  }
+
+  section div.text h2, p {
+    padding: 0 15px;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  footer h3 {
+    font-size: 22px;
+  }
+
+  footer a {
+    font-size: 32px;
+  }
+
+}
