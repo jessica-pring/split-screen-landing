@@ -154,6 +154,10 @@ footer a:hover {
     padding: 0 15px;
   }
 
+  section div.full-image {
+    height: 110vw;
+  }
+
   footer {
     padding: 0;
   }
