@@ -21,10 +21,13 @@ p {
   margin: 1.6em 0;
 }
 
+
+/* Landing header */
+
 header {
   height: 100vh;
 
-  background-image: url(images/cover.jpg);
+  background-image: url(images/cover.webp);
   background-size: cover;
   background-position: center;
 
@@ -37,6 +40,9 @@ h1 {
   font-size: 120px;
   padding-right: 20px;
 }
+
+
+/* Sections */
 
 section {
   display: flex;
@@ -66,18 +72,21 @@ section div.full-image {
 }
 
 section div.image-1 {
-  background-image: url(images/fashun-1.jpg);
+  background-image: url(images/fashun-1.webp);
   background-position: top;
 }
 
 section div.image-2 {
-  background-image: url(images/fashun-2.jpg);
+  background-image: url(images/fashun-2.webp);
 }
 
 section div.image-3 {
-  background-image: url(images/fashun-3.jpg);
+  background-image: url(images/fashun-3.webp);
   background-position: bottom;
 }
+
+
+/* Footer styling */
 
 footer {
   height: 10vh;
@@ -105,6 +114,8 @@ footer a:hover {
   text-decoration: underline;
 }
 
+
+/* Responsive design */
 
 @media (max-width: 800px) {
   body {
