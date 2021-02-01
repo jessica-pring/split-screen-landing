@@ -1,0 +1,47 @@
+[33mcommit 42fa6c8d6cc1bc565a7126ab6fcb2b5d2e3f3057[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: c5616f2 16eff0d
+Author: Jess Pring <jessicapring@outlook.com>
+Date:   Mon Feb 1 12:41:55 2021 +0000
+
+    Merge branch 'master' of github.com:jessica-pring/split-screen-landing
+
+[33mcommit c5616f206447a5d04eef560fb324fbcf8b38a1bb[m
+Author: Jess Pring <jessicapring@outlook.com>
+Date:   Mon Feb 1 12:41:20 2021 +0000
+
+    converted images to webp
+
+ images/cover.jpg     | Bin [31m1704105[m -> [32m0[m bytes
+ images/cover.webp    | Bin [31m0[m -> [32m737704[m bytes
+ images/fashun-1.jpg  | Bin [31m2187645[m -> [32m0[m bytes
+ images/fashun-1.webp | Bin [31m0[m -> [32m601182[m bytes
+ images/fashun-2.jpg  | Bin [31m4554444[m -> [32m0[m bytes
+ images/fashun-2.webp | Bin [31m0[m -> [32m1722174[m bytes
+ images/fashun-3.jpg  | Bin [31m3310015[m -> [32m0[m bytes
+ images/fashun-3.webp | Bin [31m0[m -> [32m2087170[m bytes
+ index.html           |   2 [32m+[m[31m-[m
+ style.css            |  19 [32m+++++++++++++++[m[31m----[m
+ 10 files changed, 16 insertions(+), 5 deletions(-)
+
+[33mcommit 16eff0df2f1a34273ef60e6510d153d2fd3bfa56[m
+Author: Jess Pring <47754491+jessica-pring@users.noreply.github.com>
+Date:   Sun Jan 31 18:35:14 2021 +0000
+
+    Create README.md
+
+ README.md | 3 [32m+++[m
+ 1 file changed, 3 insertions(+)
+
+[33mcommit fff4e736cc562d33fb95a1656dd9f4ba6cecb7f6[m
+Author: Jess Pring <jessicapring@outlook.com>
+Date:   Sun Jan 31 18:29:29 2021 +0000
+
+    split screen sticky project
+
+ images/cover.jpg    | Bin [31m0[m -> [32m1704105[m bytes
+ images/fashun-1.jpg | Bin [31m0[m -> [32m2187645[m bytes
+ images/fashun-2.jpg | Bin [31m0[m -> [32m4554444[m bytes
+ images/fashun-3.jpg | Bin [31m0[m -> [32m3310015[m bytes
+ index.html          | 202 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ style.css           | 158 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 6 files changed, 360 insertions(+)
